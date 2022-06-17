@@ -1,0 +1,27 @@
+section {
+    flex-direction: column;
+}
+
+select {
+
+    display: block;
+
+    border: 0;
+    border-radius: 0;
+
+    height: 2.5rem;
+
+    padding: 0.375rem 0.75rem;
+
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+}
+
+select:focus {
+    outline: none;
+}
